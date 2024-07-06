@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(27_remove_element)
+custom_enable_sanitizers(27_remove_element)

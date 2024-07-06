@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(88_merge_sorted_array)
+custom_enable_sanitizers(88_merge_sorted_array)
