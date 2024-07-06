@@ -35,3 +35,12 @@ function(custom_add_test_from_dir TEST_TARGET)
     # Регистрируем исполняемый файл в CMake как набор тестов.
     add_test(${TEST_TARGET} ${TEST_TARGET})
 endfunction()
+
+function(custom_enable_sanitizers TARGET)
+    if(CMAKE_BUILD_TYPE MATCHES "Debug")
+        set(
+            CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror -fsanitize=undefined -fsanitize=address"
+        )
+        target_link_options(${TARGET} BEFORE PUBLIC -fsanitize=undefined PUBLIC -fsanitize=address)
+    endif()
+endfunction()

@@ -1,28 +1,31 @@
-#include <vector>
 #include <stdint.h>
+#include <vector>
 
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+    int canCompleteCircuit(vector<int>& gas, vector<int>& cost)
+    {
         int sum = 0;
-        for (size_t i = 0, iMax = gas.size(); i < iMax; ++i)
+        std::vector<int> diffs(gas.size(), 0);
+        for (size_t i = 0, stationCount = diffs.size(); i < stationCount; ++i)
         {
-            gas[i] -= cost[i];
-            sum += gas[i];
+            diffs[i] = gas[i] - cost[i];
+            sum += diffs[i];
         }
         if (sum < 0)
         {
             return -1;
         }
 
-        for (size_t i = 0, stationCount = gas.size(); i < stationCount; ++i)
+        for (size_t i = 0, stationCount = diffs.size(); i < stationCount; ++i)
         {
-            int remainder = gas[i];
-            for (size_t j = i + 1; remainder >= 0 && j != i; j = (j + 1) % stationCount)
+            int remainder = diffs[i];
+            for (size_t j = (i + 1) % stationCount; remainder >= 0 && j != i; j = (j + 1) % stationCount)
             {
-                remainder += gas[j];
+                remainder += diffs[j];
             }
             if (remainder >= 0)
             {
