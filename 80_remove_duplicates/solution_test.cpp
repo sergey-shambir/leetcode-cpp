@@ -40,4 +40,9 @@ TEST_CASE("Own tests")
     REQUIRE_THAT(removeDuplicates({ 5, 5, 5, 5, 5 }), Equals<int>({ 5, 5 }));
     REQUIRE_THAT(removeDuplicates({ 1, 2, 2, 5, 7, 7, 7, 11, 11, 11, 11 }), Equals<int>({ 1, 2, 2, 5, 7, 7, 11, 11 }));
     REQUIRE_THAT(removeDuplicates({ 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 6, 7, 8, 8, 9 }), Equals<int>({ 1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8, 8, 9 }));
+
+    REQUIRE_THAT(removeDuplicates({ 1, 2 }), Equals<int>({ 1, 2 }));
+    REQUIRE_THAT(removeDuplicates({ 1, 2, 3 }), Equals<int>({ 1, 2, 3 }));
+    REQUIRE_THAT(removeDuplicates({ 1, 2, 3, 4 }), Equals<int>({ 1, 2, 3, 4 }));
+    REQUIRE_THAT(removeDuplicates({ 1, 2, 3, 4, 5 }), Equals<int>({ 1, 2, 3, 4, 5 }));
 }

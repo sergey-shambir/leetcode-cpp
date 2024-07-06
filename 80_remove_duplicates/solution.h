@@ -15,7 +15,7 @@ public:
         }
 
         int* dest = nums.data() + 1;
-        for (const int *src = dest, *end = nums.data() + nums.size(); src != end; ++src)
+        for (const int *src = dest + 1, *end = nums.data() + nums.size(); src != end; ++src)
         {
             dest += size_t(*src != *dest) | size_t(*dest != *(dest - 1));
             *dest = *src;
