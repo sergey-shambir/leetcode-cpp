@@ -14,12 +14,12 @@ public:
             return 0;
         }
 
-        size_t destI = 0;
-        for (size_t srcI = 1, size = nums.size(); srcI < size; ++srcI)
+        int* dest = nums.data();
+        for (const int *src = nums.data(), *end = nums.data() + nums.size(); src != end; ++src)
         {
-            destI += size_t(nums[srcI] != nums[destI]);
-            nums[destI] = nums[srcI];
+            dest += size_t(*src != *dest);
+            *dest = *src;
         }
-        return destI + 1;
+        return dest + 1 - nums.data();
     }
 };
