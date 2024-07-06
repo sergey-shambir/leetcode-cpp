@@ -9,24 +9,23 @@ public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost)
     {
         int sum = 0;
-        std::vector<int> diffs(gas.size(), 0);
-        for (size_t i = 0, stationCount = diffs.size(); i < stationCount; ++i)
+        for (size_t i = 0, stationCount = gas.size(); i < stationCount; ++i)
         {
-            diffs[i] = gas[i] - cost[i];
-            sum += diffs[i];
+            gas[i] -= cost[i];
+            sum += gas[i];
         }
         if (sum < 0)
         {
             return -1;
         }
 
-        for (size_t i = 0, stationCount = diffs.size(); i < stationCount;)
+        for (size_t i = 0, stationCount = gas.size(); i < stationCount; )
         {
-            int remainder = diffs[i];
+            int remainder = gas[i];
             size_t j = (i + 1) % stationCount;
             for (; remainder >= 0 && j != i; j = (j + 1) % stationCount)
             {
-                remainder += diffs[j];
+                remainder += gas[j];
             }
             if (remainder >= 0)
             {
