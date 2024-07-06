@@ -22,3 +22,9 @@ TEST_CASE("Third example from leetcode")
 {
     REQUIRE(22 == evalRPN({ "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" }));
 }
+
+
+TEST_CASE("First wrong value from leetcode")
+{
+    REQUIRE(-1 == evalRPN({ "3","-4","+" }));
+}
