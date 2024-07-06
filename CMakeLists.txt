@@ -19,6 +19,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(26_remove_duplicates)
 add_subdirectory(27_remove_element)
+add_subdirectory(80_remove_duplicates)
 add_subdirectory(88_merge_sorted_array)
 add_subdirectory(134_gas_station)
 add_subdirectory(150_reverse_polish)

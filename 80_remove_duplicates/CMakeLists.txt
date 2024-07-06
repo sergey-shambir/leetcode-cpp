@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(80_remove_duplicates)
+custom_enable_sanitizers(80_remove_duplicates)
