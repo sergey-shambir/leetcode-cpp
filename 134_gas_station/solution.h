@@ -20,16 +20,21 @@ public:
             return -1;
         }
 
-        for (size_t i = 0, stationCount = diffs.size(); i < stationCount; ++i)
+        for (size_t i = 0, stationCount = diffs.size(); i < stationCount;)
         {
             int remainder = diffs[i];
-            for (size_t j = (i + 1) % stationCount; remainder >= 0 && j != i; j = (j + 1) % stationCount)
+            size_t j = (i + 1) % stationCount;
+            for (; remainder >= 0 && j != i; j = (j + 1) % stationCount)
             {
                 remainder += diffs[j];
             }
             if (remainder >= 0)
             {
                 return i;
+            }
+            else
+            {
+                i = j;
             }
         }
 
