@@ -17,10 +17,8 @@ public:
         size_t destI = 0;
         for (size_t srcI = 1, size = nums.size(); srcI < size; ++srcI)
         {
-            if (nums[srcI] != nums[destI])
-            {
-                nums[++destI] = nums[srcI];
-            }
+            destI += size_t(nums[srcI] != nums[destI]);
+            nums[destI] = nums[srcI];
         }
         return destI + 1;
     }
