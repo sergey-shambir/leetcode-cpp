@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(150_reverse_polish)
+custom_enable_sanitizers(150_reverse_polish)

@@ -18,3 +18,4 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(134_gas_station)
+add_subdirectory(150_reverse_polish)
