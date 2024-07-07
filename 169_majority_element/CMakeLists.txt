@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(169_majority_element)
+custom_enable_sanitizers(169_majority_element)

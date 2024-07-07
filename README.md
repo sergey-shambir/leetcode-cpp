@@ -7,3 +7,7 @@
 | 88. Merge Sorted Array                     | https://leetcode.com/problems/merge-sorted-array/description/                     |
 | 134. Gas Station                           | https://leetcode.com/problems/gas-station/description/                            |
 | 150. Evaluate Reverse Polish Notation      | https://leetcode.com/problems/evaluate-reverse-polish-notation/description/       |
+| 169. Majority Element                      | https://leetcode.com/problems/majority-element/description/                       |
+
+
+
