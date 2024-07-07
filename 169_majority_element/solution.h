@@ -11,32 +11,34 @@ public:
     int majorityElement(vector<int>& nums)
     {
         array<pair<int, int>, 4> window;
-        int usedWindowSize = 0;
+        int windowTop = -1;
 
         for (int num : nums)
         {
-            for (int i = 0; i < usedWindowSize; ++i)
+            bool inWindow = false;
+            for (int i = 0; i <= windowTop; ++i)
             {
                 if (window[i].first == num)
                 {
-                    ++window[i].second;
-                    for (int j = i; j > 0; --j)
+                    inWindow = true;
+                    ++(window[i].second);
+                    for (; i > 0; --i)
                     {
-                        if (window[j].second > window[j - 1].second)
+                        if (window[i].second > window[i - 1].second)
                         {
-                            swap(window[j], window[j - 1]);
+                            swap(window[i - 1], window[i]);
                         }
                     }
-                    continue;
+                    break;
                 }
             }
-            if (usedWindowSize < window.size())
+            if (!inWindow)
             {
-                window[usedWindowSize++] = { num, 1 };
-            }
-            else
-            {
-                window[usedWindowSize-1] = { num, 1 };
+                if (windowTop + 1 < window.size())
+                {
+                    ++windowTop;
+                }
+                window[windowTop] = { num, 1 };
             }
         }
 
