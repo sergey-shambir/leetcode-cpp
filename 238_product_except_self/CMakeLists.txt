@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(238_product_except_self)
+custom_enable_sanitizers(238_product_except_self)
