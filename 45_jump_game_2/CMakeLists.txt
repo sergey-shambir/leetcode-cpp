@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(45_jump_game_2)
+custom_enable_sanitizers(45_jump_game_2)
