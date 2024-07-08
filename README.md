@@ -14,3 +14,4 @@
 | 169. Majority Element                      | https://leetcode.com/problems/majority-element/description/                       |
 | 189. Rotate Array                          | https://leetcode.com/problems/rotate-array/description/                           |
 | 274. H-Index                               | https://leetcode.com/problems/h-index/description/                                |
+| 380. Insert Delete GetRandom O(1)          | https://leetcode.com/problems/insert-delete-getrandom-o1/description/             |

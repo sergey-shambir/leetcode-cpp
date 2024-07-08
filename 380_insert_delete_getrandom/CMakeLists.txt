@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(380_insert_delete_getrandom)
+custom_enable_sanitizers(380_insert_delete_getrandom)
