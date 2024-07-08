@@ -19,6 +19,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(26_remove_duplicates)
 add_subdirectory(27_remove_element)
+add_subdirectory(55_jump_game)
 add_subdirectory(80_remove_duplicates)
 add_subdirectory(88_merge_sorted_array)
 add_subdirectory(121_best_time_to_buy_and_sell)
