@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(189_rotate_array)
+custom_enable_sanitizers(189_rotate_array)
