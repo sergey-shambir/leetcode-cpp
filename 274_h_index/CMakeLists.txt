@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(274_h_index)
+custom_enable_sanitizers(274_h_index)

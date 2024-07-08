@@ -13,3 +13,4 @@
 | 150. Evaluate Reverse Polish Notation      | https://leetcode.com/problems/evaluate-reverse-polish-notation/description/       |
 | 169. Majority Element                      | https://leetcode.com/problems/majority-element/description/                       |
 | 189. Rotate Array                          | https://leetcode.com/problems/rotate-array/description/                           |
+| 274. H-Index                               | https://leetcode.com/problems/h-index/description/                                |
