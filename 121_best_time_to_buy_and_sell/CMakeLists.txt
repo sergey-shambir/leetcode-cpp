@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(121_best_time_to_buy_and_sell)
+custom_enable_sanitizers(121_best_time_to_buy_and_sell)
