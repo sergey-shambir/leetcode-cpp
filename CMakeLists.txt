@@ -19,6 +19,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(26_remove_duplicates)
 add_subdirectory(27_remove_element)
+add_subdirectory(42_trapping_rain_water)
 add_subdirectory(45_jump_game_2)
 add_subdirectory(55_jump_game)
 add_subdirectory(80_remove_duplicates)
