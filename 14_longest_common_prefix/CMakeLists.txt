@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(14_longest_common_prefix)
+custom_enable_sanitizers(14_longest_common_prefix)

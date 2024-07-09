@@ -19,6 +19,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(12_integer_to_roman)
 add_subdirectory(13_roman_to_integer)
+add_subdirectory(14_longest_common_prefix)
 add_subdirectory(26_remove_duplicates)
 add_subdirectory(27_remove_element)
 add_subdirectory(42_trapping_rain_water)
