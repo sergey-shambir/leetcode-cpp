@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(68_text_justification)
+custom_enable_sanitizers(68_text_justification)
