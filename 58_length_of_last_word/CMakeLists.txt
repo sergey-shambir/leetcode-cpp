@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(58_length_of_last_word)
+custom_enable_sanitizers(58_length_of_last_word)
