@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(12_integer_to_roman)
+custom_enable_sanitizers(12_integer_to_roman)
