@@ -1,6 +1,7 @@
 
 | Задача                                     | Ссылка                                                                            |
 | ------------------------------------------ | --------------------------------------------------------------------------------- |
+| 6. Zigzag Conversion                       | https://leetcode.com/problems/zigzag-conversion/description/                      |
 | 12. Integer to Roman                       | https://leetcode.com/problems/integer-to-roman/description/                       |
 | 13. Roman to Integer                       | https://leetcode.com/problems/roman-to-integer/description/                       |
 | 14. Longest Common Prefix                  | https://leetcode.com/problems/longest-common-prefix/                              |

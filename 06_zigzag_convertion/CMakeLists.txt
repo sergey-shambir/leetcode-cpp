@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(06_zigzag_convertion)
+custom_enable_sanitizers(06_zigzag_convertion)
