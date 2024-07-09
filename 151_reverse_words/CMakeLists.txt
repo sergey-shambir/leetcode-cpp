@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(151_reverse_words)
+custom_enable_sanitizers(151_reverse_words)
