@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(125_valid_palindrome)
+custom_enable_sanitizers(125_valid_palindrome)
