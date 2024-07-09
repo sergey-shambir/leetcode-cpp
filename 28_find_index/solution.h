@@ -15,24 +15,29 @@ public:
             return -1;
         }
 
-        const size_t maxI = haystack.size() - needle.size();
+        const char* maxHaystackPtr = haystack.data() + (haystack.size() - needle.size());
 
-        for (size_t i = 0; i <= maxI; ++i)
+        for (const char* haystackPtr = haystack.data(); haystackPtr <= maxHaystackPtr; ++haystackPtr)
         {
-            bool matches = true;
-            for (size_t j = 0, endJ = needle.size(); j < endJ; ++j)
+            if (startsWith(haystackPtr, needle.data(), needle.size()))
             {
-                if (haystack[i + j] != needle[j])
-                {
-                    matches = false;
-                    break;
-                }
-            }
-            if (matches)
-            {
-                return int(i);
+                return int(haystackPtr - haystack.data());
             }
         }
         return -1;
+    }
+
+private:
+    bool startsWith(const char* str, const char* prefix, size_t prefixSize) const
+    {
+        const char* end = str + prefixSize;
+        for (; str < end; ++str, ++prefix)
+        {
+            if (*str != *prefix)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 };
