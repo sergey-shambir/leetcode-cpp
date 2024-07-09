@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(135_candy)
+custom_enable_sanitizers(135_candy)
