@@ -17,6 +17,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # См. https://stackoverflow.com/questions/54671883/how-can-i-set-up-c-c-intellisense-for-a-cmake-project-in-vs-code
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+add_subdirectory(13_roman_to_integer)
 add_subdirectory(26_remove_duplicates)
 add_subdirectory(27_remove_element)
 add_subdirectory(42_trapping_rain_water)
