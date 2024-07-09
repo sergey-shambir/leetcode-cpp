@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(28_find_index)
+custom_enable_sanitizers(28_find_index)
