@@ -27,3 +27,4 @@
 | 238. Product of Array Except Self                      | https://leetcode.com/problems/product-of-array-except-self/description/                       |
 | 274. H-Index                                           | https://leetcode.com/problems/h-index/description/                                            |
 | 380. Insert Delete GetRandom O(1)                      | https://leetcode.com/problems/insert-delete-getrandom-o1/description/                         |
+| 392. Is Subsequence                                    | https://leetcode.com/problems/is-subsequence/description/                                     |

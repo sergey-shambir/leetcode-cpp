@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(392_is_subsequence)
+custom_enable_sanitizers(392_is_subsequence)
