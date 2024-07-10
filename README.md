@@ -2,6 +2,7 @@
 | Задача                                                 | Ссылка                                                                                        |
 | ------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
 | 6. Zigzag Conversion                                   | https://leetcode.com/problems/zigzag-conversion/description/                                  |
+| 11. Container With Most Water                          | https://leetcode.com/problems/container-with-most-water/description/                          |
 | 12. Integer to Roman                                   | https://leetcode.com/problems/integer-to-roman/description/                                   |
 | 13. Roman to Integer                                   | https://leetcode.com/problems/roman-to-integer/description/                                   |
 | 14. Longest Common Prefix                              | https://leetcode.com/problems/longest-common-prefix/                                          |
@@ -29,3 +30,4 @@
 | 274. H-Index                                           | https://leetcode.com/problems/h-index/description/                                            |
 | 380. Insert Delete GetRandom O(1)                      | https://leetcode.com/problems/insert-delete-getrandom-o1/description/                         |
 | 392. Is Subsequence                                    | https://leetcode.com/problems/is-subsequence/description/                                     |
+  
