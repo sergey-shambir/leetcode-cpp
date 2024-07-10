@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(15_3sum)
+custom_enable_sanitizers(15_3sum)
