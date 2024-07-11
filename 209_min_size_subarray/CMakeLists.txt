@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(209_min_size_subarray)
+custom_enable_sanitizers(209_min_size_subarray)
