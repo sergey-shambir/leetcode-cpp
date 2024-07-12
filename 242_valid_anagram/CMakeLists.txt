@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(242_valid_anagram)
+custom_enable_sanitizers(242_valid_anagram)
