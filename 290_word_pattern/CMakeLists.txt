@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(290_word_pattern)
+custom_enable_sanitizers(290_word_pattern)
