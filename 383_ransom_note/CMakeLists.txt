@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(383_ransom_note)
+custom_enable_sanitizers(383_ransom_note)
