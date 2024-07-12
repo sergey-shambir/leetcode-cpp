@@ -27,6 +27,7 @@
 | 167. Two Sum II - Input Array Is Sorted                | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/                   |
 | 169. Majority Element                                  | https://leetcode.com/problems/majority-element/description/                                   |
 | 189. Rotate Array                                      | https://leetcode.com/problems/rotate-array/description/                                       |
+| 205. Isomorphic Strings                                | https://leetcode.com/problems/isomorphic-strings/description/                                 |
 | 238. Product of Array Except Self                      | https://leetcode.com/problems/product-of-array-except-self/description/                       |
 | 274. H-Index                                           | https://leetcode.com/problems/h-index/description/                                            |
 | 209. Minimum Size Subarray Sum                         | https://leetcode.com/problems/minimum-size-subarray-sum/description/                          |

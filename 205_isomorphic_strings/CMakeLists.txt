@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(205_isomorphic_strings)
+custom_enable_sanitizers(205_isomorphic_strings)
