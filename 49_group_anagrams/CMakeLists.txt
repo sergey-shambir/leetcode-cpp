@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(49_group_anagrams)
+custom_enable_sanitizers(49_group_anagrams)
