@@ -22,6 +22,7 @@
 | 121. Best Time to Buy and Sell Stock                   | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/                    |
 | 122. Best Time to Buy and Sell Stock II                | https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/                 |
 | 125. Valid Palindrome                                  | https://leetcode.com/problems/valid-palindrome/description/                                   |
+| 128. Longest Consecutive Sequence                      | https://leetcode.com/problems/longest-consecutive-sequence/description/                       |
 | 134. Gas Station                                       | https://leetcode.com/problems/gas-station/description/                                        |
 | 135. Candy                                             | https://leetcode.com/problems/candy/description/                                              |
 | 150. Evaluate Reverse Polish Notation                  | https://leetcode.com/problems/evaluate-reverse-polish-notation/description/                   |

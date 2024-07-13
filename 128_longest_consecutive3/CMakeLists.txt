@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(128_longest_consecutive3)
+custom_enable_sanitizers(128_longest_consecutive3)
