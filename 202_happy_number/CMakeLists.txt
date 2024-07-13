@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(202_happy_number)
+custom_enable_sanitizers(202_happy_number)
