@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(228_summary_ranges)
+custom_enable_sanitizers(228_summary_ranges)
