@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(219_contains_duplicate)
+custom_enable_sanitizers(219_contains_duplicate)
