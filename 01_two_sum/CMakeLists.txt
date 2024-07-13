@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(01_two_sum)
+custom_enable_sanitizers(01_two_sum)
