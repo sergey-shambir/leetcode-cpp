@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(452_burst_baloons)
+custom_enable_sanitizers(452_burst_baloons)

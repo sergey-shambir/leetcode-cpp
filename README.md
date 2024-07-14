@@ -44,3 +44,4 @@
 | 380. Insert Delete GetRandom O(1)                      | https://leetcode.com/problems/insert-delete-getrandom-o1/description/                         |
 | 383. Ransom Note                                       | https://leetcode.com/problems/ransom-note/description/                                        |
 | 392. Is Subsequence                                    | https://leetcode.com/problems/is-subsequence/description/                                     |
+| 452. Minimum Number of Arrows to Burst Balloons        | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/         |
