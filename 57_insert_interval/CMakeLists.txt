@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(57_insert_interval)
+custom_enable_sanitizers(57_insert_interval)
