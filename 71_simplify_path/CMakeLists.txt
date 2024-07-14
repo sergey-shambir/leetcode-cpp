@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(71_simplify_path)
+custom_enable_sanitizers(71_simplify_path)
