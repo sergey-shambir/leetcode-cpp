@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(20_valid_parentheses)
+custom_enable_sanitizers(20_valid_parentheses)
