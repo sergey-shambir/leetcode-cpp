@@ -15,6 +15,7 @@
 | 45. Jump Game II                                       | https://leetcode.com/problems/jump-game-ii/description/                                       |
 | 49. Group Anagrams                                     | https://leetcode.com/problems/group-anagrams/description/                                     |
 | 55. Jump Game                                          | https://leetcode.com/problems/jump-game/description/                                          |
+| 56. Merge Intervals                                    | https://leetcode.com/problems/merge-intervals/description/                                    |
 | 58. Length of Last Word                                | https://leetcode.com/problems/length-of-last-word/description/                                |
 | 68. Text Justification                                 | https://leetcode.com/problems/text-justification/                                             |
 | 80. Remove Duplicates from Sorted Array II             | https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/             |

@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(56_merge_intervals)
+custom_enable_sanitizers(56_merge_intervals)
