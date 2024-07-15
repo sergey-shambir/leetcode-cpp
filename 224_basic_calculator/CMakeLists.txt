@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(224_basic_calculator)
+custom_enable_sanitizers(224_basic_calculator)
