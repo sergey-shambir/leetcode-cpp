@@ -6,9 +6,6 @@
 
 using namespace std;
 
-// "(1+(4+5+2)-3)+(6+8)"
-// 2-1 + 2
-
 class Solution
 {
 public:
@@ -50,7 +47,14 @@ private:
     int evalTerm()
     {
         skipSpaces();
+        int sign = 1;
+        if (lookup() == '-')
+        {
+            sign = -1;
+            advance();
+        }
 
+        skipSpaces();
         int result = 0;
         if (lookup() == '(')
         {
@@ -68,19 +72,12 @@ private:
         {
             result = parseNumber();
         }
-        return result;
+        return sign * result;
     }
 
     int parseNumber()
     {
         skipSpaces();
-
-        int sign = 1;
-        if (lookup() == '-')
-        {
-            sign = -1;
-            advance();
-        }
 
         int modulo = 0;
         while (isdigit(lookup()))
@@ -88,7 +85,7 @@ private:
             modulo = modulo * 10 + (lookup() - '0');
             advance();
         }
-        return sign * modulo;
+        return modulo;
     }
 
     char lookup() const

@@ -31,4 +31,5 @@ TEST_CASE("Leetcode examples")
     REQUIRE(calculate("1 + 1") == 2);
     REQUIRE(calculate(" 2-1 + 2 ") == 3);
     REQUIRE(calculate("(1+(4+5+2)-3)+(6+8)") == 23);
+    REQUIRE(calculate("- (3 + (4 + 5))") == -12);
 }
