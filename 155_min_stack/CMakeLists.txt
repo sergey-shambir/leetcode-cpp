@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(155_min_stack)
+custom_enable_sanitizers(155_min_stack)
