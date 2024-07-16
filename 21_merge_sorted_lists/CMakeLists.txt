@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(21_merge_sorted_lists)
+custom_enable_sanitizers(21_merge_sorted_lists)

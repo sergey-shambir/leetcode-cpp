@@ -15,6 +15,8 @@ public:
         }
 
         nodes.clear();
+        nodes.reserve(ints.size());
+
         for (auto it = ints.begin(), end = ints.end(); it < end; ++it)
         {
             nodes.emplace_back(*it);
