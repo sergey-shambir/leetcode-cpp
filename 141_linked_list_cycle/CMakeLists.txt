@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(141_linked_list_cycle)
+custom_enable_sanitizers(141_linked_list_cycle)
