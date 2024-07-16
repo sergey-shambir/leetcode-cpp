@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(206_reverse_linked_list)
+custom_enable_sanitizers(206_reverse_linked_list)
