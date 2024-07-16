@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(02_add_two_numbers)
+custom_enable_sanitizers(02_add_two_numbers)

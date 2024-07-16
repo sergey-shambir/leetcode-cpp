@@ -18,6 +18,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(01_two_sum)
+add_subdirectory(02_add_two_numbers)
 add_subdirectory(06_zigzag_convertion)
 add_subdirectory(11_container_with_most_water)
 add_subdirectory(12_integer_to_roman)
