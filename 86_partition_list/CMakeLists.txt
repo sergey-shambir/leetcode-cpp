@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(86_partition_list)
+custom_enable_sanitizers(86_partition_list)

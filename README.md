@@ -28,6 +28,7 @@
 | 71. Simplify Path                                      | https://leetcode.com/problems/simplify-path/description/                                      |
 | 80. Remove Duplicates from Sorted Array II             | https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/             |
 | 82. Remove Duplicates from Sorted List II              | https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/              |
+| 86. Partition List                                     | https://leetcode.com/problems/partition-list/description/                                     |
 | 88. Merge Sorted Array                                 | https://leetcode.com/problems/merge-sorted-array/description/                                 |
 | 92. Reverse Linked List II                             | https://leetcode.com/problems/reverse-linked-list-ii/description/                             |
 | 121. Best Time to Buy and Sell Stock                   | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/                    |
