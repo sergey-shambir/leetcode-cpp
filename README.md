@@ -23,6 +23,7 @@
 | 56. Merge Intervals                                    | https://leetcode.com/problems/merge-intervals/description/                                    |
 | 57. Insert Interval                                    | https://leetcode.com/problems/insert-interval/description/                                    |
 | 58. Length of Last Word                                | https://leetcode.com/problems/length-of-last-word/description/                                |
+| 61. Rotate List                                        | https://leetcode.com/problems/rotate-list/description/                                        |
 | 68. Text Justification                                 | https://leetcode.com/problems/text-justification/                                             |
 | 71. Simplify Path                                      | https://leetcode.com/problems/simplify-path/description/                                      |
 | 80. Remove Duplicates from Sorted Array II             | https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/             |

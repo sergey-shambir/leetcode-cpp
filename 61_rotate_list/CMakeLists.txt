@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(61_rotate_list)
+custom_enable_sanitizers(61_rotate_list)
