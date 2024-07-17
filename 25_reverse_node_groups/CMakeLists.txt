@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(25_reverse_node_groups)
+custom_enable_sanitizers(25_reverse_node_groups)
