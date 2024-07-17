@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(19_remove_nth_from_list_end)
+custom_enable_sanitizers(19_remove_nth_from_list_end)
