@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(138_copy_list_with_random_pointer)
+custom_enable_sanitizers(138_copy_list_with_random_pointer)
