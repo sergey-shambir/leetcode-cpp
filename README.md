@@ -31,6 +31,7 @@
 | 86. Partition List                                     | https://leetcode.com/problems/partition-list/description/                                     |
 | 88. Merge Sorted Array                                 | https://leetcode.com/problems/merge-sorted-array/description/                                 |
 | 92. Reverse Linked List II                             | https://leetcode.com/problems/reverse-linked-list-ii/description/                             |
+| 104. Maximum Depth of Binary Tree                      | https://leetcode.com/problems/maximum-depth-of-binary-tree/description/                       |
 | 121. Best Time to Buy and Sell Stock                   | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/                    |
 | 122. Best Time to Buy and Sell Stock II                | https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/                 |
 | 125. Valid Palindrome                                  | https://leetcode.com/problems/valid-palindrome/description/                                   |
@@ -51,6 +52,7 @@
 | 209. Minimum Size Subarray Sum                         | https://leetcode.com/problems/minimum-size-subarray-sum/description/                          |
 | 219. Contains Duplicate II                             | https://leetcode.com/problems/contains-duplicate-ii/description/                              |
 | 224. Basic Calculator                                  | https://leetcode.com/problems/basic-calculator/description/                                   |
+| 226. Invert Binary Tree                                | https://leetcode.com/problems/invert-binary-tree/description/                                 |
 | 228. Summary Ranges                                    | https://leetcode.com/problems/summary-ranges/description/                                     |
 | 238. Product of Array Except Self                      | https://leetcode.com/problems/product-of-array-except-self/description/                       |
 | 242. Valid Anagram                                     | https://leetcode.com/problems/valid-anagram/description/                                      |
