@@ -31,6 +31,7 @@
 | 86. Partition List                                     | https://leetcode.com/problems/partition-list/description/                                     |
 | 88. Merge Sorted Array                                 | https://leetcode.com/problems/merge-sorted-array/description/                                 |
 | 92. Reverse Linked List II                             | https://leetcode.com/problems/reverse-linked-list-ii/description/                             |
+| 100. Same Tree                                         | https://leetcode.com/problems/same-tree/description/                                          |
 | 104. Maximum Depth of Binary Tree                      | https://leetcode.com/problems/maximum-depth-of-binary-tree/description/                       |
 | 121. Best Time to Buy and Sell Stock                   | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/                    |
 | 122. Best Time to Buy and Sell Stock II                | https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/                 |
