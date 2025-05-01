@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(29_divide_two_integers)
+custom_enable_sanitizers(29_divide_two_integers)

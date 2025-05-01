@@ -1,6 +1,9 @@
 # Use `make BUILD_TYPE=Release` to change build type
 BUILD_TYPE = Debug
 
+# Use `make single SINGLE_TARGET=29_divide_two_integers` to build and test one target only
+SINGLE_TARGET=01_two_sum
+
 ifeq ($(BUILD_TYPE), Debug)
 	CONAN_RPOFILE = debug
 else ifeq ($(BUILD_TYPE), Release)
@@ -21,6 +24,11 @@ build:
 	cmake --build build/$(BUILD_TYPE)
 
 test: build 
-	 ctest --output-on-failure --test-dir build/$(BUILD_TYPE)
+	ctest --output-on-failure --test-dir build/$(BUILD_TYPE)
+
+single:
+	cmake --build build/$(BUILD_TYPE) --target=$(SINGLE_TARGET)
+	build/$(BUILD_TYPE)/$(SINGLE_TARGET)/$(SINGLE_TARGET)
+
 
 .PHONY: conan cmake build test
