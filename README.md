@@ -4,6 +4,7 @@
 | 1. Two Sum                                             | https://leetcode.com/problems/two-sum/description/                                            |
 | 2. Add Two Numbers                                     | https://leetcode.com/problems/add-two-numbers/description/                                    |
 | 6. Zigzag Conversion                                   | https://leetcode.com/problems/zigzag-conversion/description/                                  |
+| 7. Reverse Integer                                     | https://leetcode.com/problems/reverse-integer/description/                                    |
 | 11. Container With Most Water                          | https://leetcode.com/problems/container-with-most-water/description/                          |
 | 12. Integer to Roman                                   | https://leetcode.com/problems/integer-to-roman/description/                                   |
 | 13. Roman to Integer                                   | https://leetcode.com/problems/roman-to-integer/description/                                   |
