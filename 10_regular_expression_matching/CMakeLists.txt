@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(10_regular_expression_matching)
+custom_enable_sanitizers(10_regular_expression_matching)

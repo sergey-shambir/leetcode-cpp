@@ -9,9 +9,9 @@ enable_testing()
 include(cmake/functions.cmake)
 
 # Включаем C++20 во всём проекте
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_EXTENSIONS ON)
 
 # Экспортируем команды для использования с VSCode C++ IntelliSense
 # См. https://stackoverflow.com/questions/54671883/how-can-i-set-up-c-c-intellisense-for-a-cmake-project-in-vs-code
@@ -20,6 +20,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_subdirectory(01_two_sum)
 add_subdirectory(02_add_two_numbers)
 add_subdirectory(06_zigzag_convertion)
+add_subdirectory(10_regular_expression_matching)
 add_subdirectory(11_container_with_most_water)
 add_subdirectory(12_integer_to_roman)
 add_subdirectory(13_roman_to_integer)
