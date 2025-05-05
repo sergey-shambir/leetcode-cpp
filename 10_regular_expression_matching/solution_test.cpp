@@ -21,3 +21,8 @@ TEST_CASE("Own examples")
 {
     REQUIRE(isMatch("aa", ".") == false);
 }
+
+TEST_CASE("Failed case from leetcode")
+{
+    REQUIRE(isMatch("a", "ab*") == true);
+}

@@ -1,15 +1,18 @@
-#include <vector>
-#include <string>
 #include <span>
+#include <string>
+#include <vector>
+#include <algorithm>
 
-class Solution {
+class Solution
+{
     struct Token
     {
         char ch = '0';
         bool repeated = false;
 
         Token(char ch, bool repeated)
-            : ch(ch), repeated(repeated)
+            : ch(ch)
+            , repeated(repeated)
         {
         }
 
@@ -20,7 +23,8 @@ class Solution {
     };
 
 public:
-    bool isMatch(std::string s, std::string p) {
+    bool isMatch(std::string s, std::string p)
+    {
         std::vector<Token> pattern = tokenizePattern(p);
         optimizePattern(pattern);
 
@@ -30,9 +34,13 @@ public:
 private:
     bool isMatch(std::string_view text, std::span<Token> pattern)
     {
-        if (text.empty() || pattern.empty())
+        if (text.empty())
         {
-            return text.empty() || pattern.empty();
+            return std::ranges::all_of(pattern, [](Token t) { return t.repeated; });
+        }
+        if (pattern.empty())
+        {
+            return false;
         }
 
         if (pattern[0].isMatch(text[0]))
@@ -53,7 +61,7 @@ private:
         return false;
     }
 
-    void optimizePattern(std::vector<Token> &tokens)
+    void optimizePattern(std::vector<Token>& tokens)
     {
         for (size_t i = 1; i < tokens.size(); ++i)
         {
@@ -72,7 +80,7 @@ private:
         }
     }
 
-    std::vector<Token> tokenizePattern(const std::string &pattern)
+    std::vector<Token> tokenizePattern(const std::string& pattern)
     {
         std::vector<Token> result;
         result.reserve(pattern.size());
