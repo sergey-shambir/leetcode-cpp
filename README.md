@@ -6,6 +6,7 @@
 | 6. Zigzag Conversion                                   | https://leetcode.com/problems/zigzag-conversion/description/                                  |
 | 7. Reverse Integer                                     | https://leetcode.com/problems/reverse-integer/description/                                    |
 | 8. String to Integer                                   | https://leetcode.com/problems/string-to-integer-atoi/description/                             |
+| 9. Palindrome Number                                   | https://leetcode.com/problems/palindrome-number/description/                                  |
 | 10. Regular Expression Matching                        | https://leetcode.com/problems/regular-expression-matching/description/                        |
 | 11. Container With Most Water                          | https://leetcode.com/problems/container-with-most-water/description/                          |
 | 12. Integer to Roman                                   | https://leetcode.com/problems/integer-to-roman/description/                                   |

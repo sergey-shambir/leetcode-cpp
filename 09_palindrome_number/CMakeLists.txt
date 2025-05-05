@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(09_palindrome_number)
+custom_enable_sanitizers(09_palindrome_number)
