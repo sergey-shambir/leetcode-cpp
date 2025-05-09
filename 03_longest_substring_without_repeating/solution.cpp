@@ -1,38 +1,36 @@
+#include <algorithm>
+#include <array>
 #include <string>
 #include <unordered_map>
-#include <algorithm>
 
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    int lengthOfLongestSubstring(string s) {
-        _chars.reserve((std::min<size_t>)(256, s.length()));
+    int lengthOfLongestSubstring(string s)
+    {
+        size_t result = 0;
+        std::array<size_t, 256> chars;
+        std::fill(chars.begin(), chars.end(), std::string::npos);
 
-        for (size_t start = 0, length = s.length(); start < length; ++start)
+        size_t left = 0;
+        size_t right = 0;
+        size_t length = s.length();
+
+        while (right < length)
         {
-            for (size_t i = start; i < length; ++i)
+            char ch = s[right];
+            const size_t position = chars[ch];
+            if (position != std::string::npos)
             {
-                char ch = s[i];
-                const auto it = _chars.find(ch);
-                if (it == _chars.end())
-                {
-                    _result = (std::max<size_t>)(_result, i - start + 1);
-                    _chars[ch] = i;
-                }
-                else
-                {
-                    start = it->second;
-                    _chars.clear();
-                    break;
-                }
+                left = (std::max<size_t>(left, position + 1));
             }
+            result = (std::max<size_t>)(result, right - left + 1);
+            chars[ch] = right;
+            ++right;
         }
 
-        return static_cast<int>(_result);
+        return static_cast<int>(result);
     }
-
-private:
-    size_t _result = 0;
-    std::unordered_map<char, size_t> _chars;
 };
