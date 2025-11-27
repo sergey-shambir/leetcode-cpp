@@ -67,6 +67,7 @@
 | 238. Product of Array Except Self                      | https://leetcode.com/problems/product-of-array-except-self/description/                       |
 | 242. Valid Anagram                                     | https://leetcode.com/problems/valid-anagram/description/                                      |
 | 274. H-Index                                           | https://leetcode.com/problems/h-index/description/                                            |
+| 284. Peeking Iterator                                  | https://leetcode.com/problems/peeking-iterator/description/                                   |
 | 290. Word Pattern                                      | https://leetcode.com/problems/word-pattern/description/                                       |
 | 380. Insert Delete GetRandom O(1)                      | https://leetcode.com/problems/insert-delete-getrandom-o1/description/                         |
 | 383. Ransom Note                                       | https://leetcode.com/problems/ransom-note/description/                                        |
