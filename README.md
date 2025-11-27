@@ -73,3 +73,4 @@
 | 383. Ransom Note                                       | https://leetcode.com/problems/ransom-note/description/                                        |
 | 392. Is Subsequence                                    | https://leetcode.com/problems/is-subsequence/description/                                     |
 | 452. Minimum Number of Arrows to Burst Balloons        | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/         |
+| 763. Partition Labels                                  | https://leetcode.com/problems/partition-labels/description/                                   |
