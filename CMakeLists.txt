@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.29 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.28 FATAL_ERROR)
 
 project(leetcode-cpp CXX)
 
@@ -80,3 +80,4 @@ add_subdirectory(380_insert_delete_getrandom)
 add_subdirectory(383_ransom_note)
 add_subdirectory(392_is_subsequence)
 add_subdirectory(452_burst_baloons)
+add_subdirectory(395_longest_substring)

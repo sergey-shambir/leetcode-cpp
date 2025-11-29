@@ -1,0 +1,3 @@
+
+custom_add_test_from_dir(395_longest_substring)
+custom_enable_sanitizers(395_longest_substring)
